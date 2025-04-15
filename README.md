@@ -1,6 +1,5 @@
-```markdown
+
 ## How to Compile and Run
-```
 
 1. Generate the C source file from the Lex file:
    ```bash
