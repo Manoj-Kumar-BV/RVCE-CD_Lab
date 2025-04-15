@@ -1,5 +1,5 @@
 
-## How to Compile and Run
+## How to Compile and Run the Lex program files in Lex folder in each Program Folder
 
 1. Generate the C source file from the Lex file:
    ```bash
@@ -15,10 +15,3 @@
    ```bash
    ./a.out
    ```
-
-4. Enter input when prompted and press `Ctrl+D` to end input (on Linux/macOS).
-``` 
-
----
-
-Let me know if you want to include sample input/output or a description section later!
