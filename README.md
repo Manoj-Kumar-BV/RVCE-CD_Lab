@@ -1,5 +1,5 @@
 
-## How to Compile and Run the Lex program files in Lex folder in each Program Folder
+## For Lex Folder - How to Compile and Run the Lex program files in Lex folder in each Program Folder
 
 1. Generate the C source file from the Lex file:
    ```bash
