@@ -16,6 +16,6 @@
    ./a.out
    ```
 ## Files
-- `prog1.l` - The Lex source file containing rules and patterns.
-- `lex.yy.c` - Generated C file from `prog1.l`.
-- `a.out` - Executable generated after compiling `lex.yy.c`.
+- `prog1.l` - The Lex source file containing rules and patterns
+- `lex.yy.c` - Generated C file from `prog1.l`
+- `a.out` - Executable generated after compiling `lex.yy.c`
