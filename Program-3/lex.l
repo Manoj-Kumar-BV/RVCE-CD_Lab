@@ -5,16 +5,16 @@ FILE *commentFile;
 %}
 
 %%
-"//"[^\n]*  {single++; fprintf(commentFile, "%s\n", yytext);}
-"/*"(.|\n)*?"*/"  {
-                    multi++;
-                    for(int i=0; i<yyleng; i++){
-                      if(yytext[i] == '\n')
-                        mline++;
-                    }
-                    fprintf(commentFile, "%s\n", yytext);
-                  }
-.  { fprinf(yyout, "%s", yytext); }
+"//"[^\n]*      {single++; fprintf(commentFile, "%s\n", yytext);}
+"/*"(.|\n)*?"*/"        {
+                                multi++;
+                                for(int i=0; i<yyleng; i++){
+                                        if(yytext[i] == '\n')
+                                                mline++;
+                                }
+                                fprintf(commentFile, "%s\n", yytext);
+                        }
+.       { fprintf(yyout, "%s", yytext); }
 %%
 
 int yywrap(){
