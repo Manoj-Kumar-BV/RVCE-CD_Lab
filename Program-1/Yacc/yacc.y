@@ -1,7 +1,10 @@
 %{
-  #include<stdio.h>
-  #include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+int yyerror();
+int yylex();
 %}
+
 %%
 S:A B
 ;
@@ -12,15 +15,14 @@ B:'b'B'c'
 |
 ;
 %%
-int main()
-{
-	printf("Enter the input:\n");
-	yyparse();
-	printf("Valid string\n");
+
+int main(){
+printf("Enter the Input: \n");
+yyparse();
+printf("Valid Input\n");
 }
-int yyerror()
-{
-	printf("Invalid string\n");
-	exit(0);
-	
+
+int yyerror(){
+printf("Invalid Input\n");
+exit(0);
 }
