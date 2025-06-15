@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+int num1, num2, result; //Declaring the Variables
+printf("Enter the First Number: ");
+scanf("%d", &num1);
+
+printf("Enter the Second Number: ");
+scanf("%d", &num2);
+
+result = num1 + num2;
+
+/*This the addition part and the sum will be
+stored in result Variable*/
+
+printf("Result is : %d\n", result);     //This prints the result in terminal
