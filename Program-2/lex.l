@@ -4,30 +4,22 @@ int posint = 0, negint = 0, posfrac = 0, negfrac = 0;
 %}
 
 num [0-9]+
-
 posint \+?{num}
 negint -{num}
 
-posnum \+?{num}\/\+?{num}|-{num}\/-{num}
-negnum -{num}\/\+?{num}|\+?{num}\/-{num}
+posnum {posint}\/{posint}|{negint}\/{negint}
+negnum {posint}\/{negint}|{negint}\/{posint}
 
 %%
-
 {posint} posint++;
-
 {negint} negint++;
-
 {posnum} posfrac++;
-
 {negnum} negfrac++;
-
 [ \t] ;
-
 [\n] return 0;
-
 . ECHO;
-
 %%
+
 
 int yywrap(){}
 
