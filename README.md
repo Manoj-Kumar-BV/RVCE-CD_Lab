@@ -6,7 +6,7 @@ The following are the lab exercises for Compiler Design, implemented using LEX, 
 
 ### Program-1    [Link](https://github.com/Manoj-Kumar-BV/RVCE-CD_Lab/tree/main/Program-1)
 a) Write a LEX program to count number of words, lines, characters and whitespaces in a given paragraph.  
-b) Write a YACC program to recognize strings of the form a<sup>n</sup>b<sup>n</sup>m<sup>m</sup>c<sup>m</sup>, n, m ≥ 0.
+b) Write a YACC program to recognize strings of the form a<sup>n</sup>b<sup>n+m</sup>c<sup>m</sup>, n, m ≥ 0.
 
 ### Program-2    [Link](https://github.com/Manoj-Kumar-BV/RVCE-CD_Lab/tree/main/Program-2)
 a) Write a LEX program to count number of Positive and Negative integers and Positive & Negative fractions.  
