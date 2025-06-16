@@ -5,7 +5,7 @@ int lines=0, words=0, chars=0, spaces=0;
 
 %%
 [ ]             {spaces++;}
-\t              {spaces++;}
+\t              {spaces+=4;}
 \n              {lines++;}
 [^ \t\n#]+      {words++;chars+=yyleng;}
 #               {return 0;}
