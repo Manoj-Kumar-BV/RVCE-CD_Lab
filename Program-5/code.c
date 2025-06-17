@@ -32,7 +32,7 @@ int main(){
     for(k=0; k<strlen(inp); k++)
         arr[k] = inp[k];
     stk[0]='$';
-    printf("Stack\t\t\tInput\t\t\tAction\n");
+    printf("\t\t\tStack\t\t\tInput\t\t\tAction\n");
     dispstk();
     dispinp();
     printf("\t\t\tShift");
