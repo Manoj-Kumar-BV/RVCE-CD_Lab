@@ -20,7 +20,7 @@ b) Write a YACC program to recognize a nested (minimum 3 levels) FOR loop statem
 a) Write a LEX program to recognize and count the number of identifiers, operators and keywords in a given input file.  
 b) Write a YACC program to recognize nested IF control statements (C language) and display the number of levels of nesting.
 
-### Program-5    [Link](https://github.com/Manoj-Kumar-BV/RVCE-CD_Lab/tree/main/Program-5)
+### Program-5    [Link](https://github.com/Manoj-Kumar-BV/RVCE-CD_Lab/blob/main/Program-5/code.c)
 Write a C program to implement a Shift Reduce parser for a given grammar and generate the parsing table by parsing the given string.
 
 ### Program-6    [Link](https://github.com/Manoj-Kumar-BV/RVCE-CD_Lab/tree/main/Program-6)
