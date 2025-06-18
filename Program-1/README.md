@@ -22,9 +22,9 @@ When you run this program, just type
 
 **Example Input:**
 ````
-aabbc  {Invalid)
-abc  (Invalid)
-aabbbc (Valid)
-ab  (Valid)
-bc  (Valid) 
+aabbc
+abc
+aabbbc
+ab
+bc
 ````
