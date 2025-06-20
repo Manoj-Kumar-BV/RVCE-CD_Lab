@@ -32,6 +32,9 @@ Write a YACC program that identifies Function Definition of C language.
 ### Program-8    [Link](https://github.com/Manoj-Kumar-BV/RVCE-CD_Lab/tree/main/Program-8)
 Write a YACC program that generates Assembly language (Target) Code for valid Arithmetic Expression.
 
+### Program-9    [Link](https://github.com/Manoj-Kumar-BV/RVCE-CD_Lab/tree/main/Program-9)
+Write a YACC program to recognize declaration statements (C language) and display the number of variables declared.
+
 ---
 
 ## For Lex Programs - How to Compile and Run the Lex programs
@@ -39,20 +42,11 @@ Write a YACC program that generates Assembly language (Target) Code for valid Ar
 1. Generate the C source file from the Lex file:
     ```bash
     lex filename.l
-    ```
-
-2. Compile the generated C file:
-    ```bash
     gcc lex.yy.c 
-    ```
-
-3. Run the compiled program:
-    ```bash
     ./a.out
     ```
 
 ## For yacc Programs - How to Compile and Run the yacc Programs
-
 ```bash
 lex filename.l
 yacc -d filename.y
